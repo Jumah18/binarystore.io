@@ -1,0 +1,164 @@
+body {
+    /* background-color: rgb(155, 181, 220); */
+    margin :50px;
+    background-color: rgb(56, 52, 52);
+}
+
+
+/* body {
+    margin: 50px;
+    text-align: center;
+    background-color: rgb(56, 52, 52);
+    
+} */
+
+.main-div{
+    background-color: whitesmoke;
+    
+    
+    max-height: fit-content;
+    width: 95%;
+    padding: 10px;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 2px solid burlywood;
+    border-right: 2px solid burlywood;
+    width: 400px;
+    box-shadow: 4px 4px 5px gray;
+
+}
+   
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+hr {
+    width: 5%;
+}
+
+li {
+    
+    list-style: none;
+    display: inline-block;
+    color: rgb(43, 39, 39);
+}
+
+ul{
+    text-align: right;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    transition: all 0.7s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 500px){
+    body {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        width: 200px;
+    }
+}
+
+@media (max-width: 300px){
+    .h1, .h4{
+        font-size: 1rem;
+    }
+
+    h1{
+        width: 100px;
+    }
+    .ul {
+        font-size: 1rem;
+    }
+    .h4{
+        font-size: 1rem;
+    }
+}
+
+
+
+/* body {
+    text-align: center;
+    background-color: rgb(56, 52, 52);
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+
+    
+   
+}
+
+
+.formbody {
+    padding: 200px 500px;
+    max-height: fit-content;
+    margin: 20px;
+}
+
+.formdiv1 {
+  
+    background-color: blanchedalmond;
+    border-radius: 5%;
+    padding: 20px 0px 20px 0px;
+    
+}
+
+.buttonform {
+   
+    margin: 20px;
+    border-radius: 5px;
+}
+
+h4 {
+   
+    padding: 10px;
+
+}
+
+.formform {
+    
+    margin: 20px;
+    padding-top: 10px;
+    background-color: rgb(85, 82, 53);
+    border-radius: 5%;
+    line-height: 30px;
+}
+
+input {
+    
+    
+    padding: 7px;
+    border-radius: 30%;
+    background-color: transparent;
+    border: 5px solid blanchedalmond;
+    
+}
+
+.buttonform .linkform:hover{
+    background-color: transparent;
+    font-size: 20px;
+    border-radius: 10px;
+    color: chocolate;
+} */
